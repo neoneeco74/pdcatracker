@@ -1,0 +1,482 @@
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color:#E9EBEE;
+
+    
+   
+    color: #666666;
+
+  }
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+body {position: relative;}
+footer {position: absolute; bottom: 0; left: 0; right: 0}
+
+
+.container-scroll-nav {
+	padding-top:74px;
+}
+.container-global {
+    padding-bottom:150px;
+    margin-top:50px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+
+.mycss-entete {
+	position:relative;
+	width:100%;
+	height: auto;
+	background-color: #2d4474;
+	padding-bottom:0px;
+    z-index:2000;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.mycss-container-entete {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#mycss-logo {
+	display:inline-block;
+	margin:10px 0px 5px 0px;
+    background-image: url(../img/logo_officiel.png);
+    background-repeat: no-repeat;
+	width: 475px; 
+	height: 50px;
+	-webkit-transition: color ease-in-out 0.9s;
+	-o-transition: color ease-in-out 0.9s;
+    transition: color ease-in-out 0.9s;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#mycss-logo :hover {
+    background-image: url(../img/logo_officiel_hover.png);
+    background-repeat: no-repeat;
+}
+
+#mycss-logo a {
+	display:block;
+	width:100%;
+	height:100%;
+}
+
+.mycss-logo-bloc-info {
+	
+	text-align:right;
+	font-size:11px;
+    
+
+	color: #b0b0b0; 
+	margin:5px 5px 10px 0px;
+	padding:5px 10px 5px 10px;
+	
+    /* border: 1px solid #dddddd; */
+	-webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius:2px;	
+	
+}
+.mycss-logo-bloc-info2 {
+	
+     
+    color:white; 
+    
+    margin-bottom:5px; 	
+	
+}
+
+
+
+
+
+
+
+
+
+.mycss-well-data {
+    min-height: 20px;
+    padding: 30px;
+    margin-bottom: 0px;
+    background-color: #f5f5f5;
+    border: 1px solid #d1d1d1; /*#e3e3e3 */
+    border-radius: 5px;
+    width: 100%;
+  
+  }
+
+.mycss-button-statut {
+    height: 32px;
+    width: 80%;
+    vertical-align: middle;
+    text-align: center;
+    margin: auto;
+    padding-top:3px;
+}
+
+.mycss-separator-10 {
+	padding:5px;
+}
+.mycss-separator-20 {
+	padding:10px;
+}
+.mycss-separator-30 {
+	padding:15px;
+}
+.mycss-separator-40 {
+	padding:20px;
+}
+.mycss-separator-60 {
+	padding:30px; 		
+}
+
+
+/* Cache le formulaire description de la page description */
+.mycss-div-form-add-description {
+	display:none;
+	
+}
+.mycss-div-form-add-description8d {
+	display:none;
+	
+}
+
+
+
+
+
+
+
+
+
+/*=========================================================================================================================//
+//=========================================================================================================================//
+//=========================================================================================================================//
+//=========   FONCTION   ========   TABLEAU DOCUMENT 8D ET PDCA DESCRITPION=================================================*/	
+
+.tableau_documentpdcaligne { 	
+    background-color:white;
+}
+
+
+.tableau_documentpdcaligne th, .tableau_documentpdcaligne td {  /* Mettre une bordure sur les td ET les th */
+    height: 50px;	
+    /*min-width:50px;*/
+    border: 1px solid black;
+	padding:4px;
+	font-size: 10px;
+	overflow-wrap: break-word;
+	overflow : auto;
+
+}
+
+
+.tableau_documentpdcaligne td { 
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+    
+    padding: 4px; 
+    text-align: left; 
+}
+
+.mycss-th-px						{	width:20px	}
+.mycss-th-05						{	width:5%	}
+.mycss-th-15						{	width:15%; 	}
+
+/*tableau 8d */
+.mycss-th-25						{	width:25%; 	}
+
+
+
+.mycss-email-tableau th {
+    
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=========================================================================================================================//
+//=========================================================================================================================//
+//=========================================================================================================================//
+//=========   FONCTION   ========   TABLEAU DATABASE PDCA  =====================================================================*/	
+
+.mycss-datatable, .mycss-datatable2 {
+    table-layout: fixed;
+    width: 1300px;
+    margin: auto;
+    
+}
+
+/* =============================*/
+/* STYLE DU HEADER DATABASE     */
+
+.table > thead > tr > th {
+	vertical-align: middle;
+	height: 60px;
+	font-weight: normal;
+}
+.table > tbody > tr {
+	vertical-align: middle;
+    height: 60px;
+    
+    
+}
+th {
+	text-align: center;
+}
+/* =============================*/
+
+
+.mycss-datatable > tbody > tr:hover {		
+	background: #C8C8C8;
+	cursor: pointer;
+}
+
+ 
+.mycss-datatable > tbody > tr > td, .mycss-datatable2 > tbody > tr > td {
+	padding: 2px 6px 2px 6px;
+	vertical-align:middle;
+}
+
+
+.mycss-ligne-cliquable {
+ 	height:100%; 
+/*  display: inline-block;  */
+    padding: 4px 12px; 
+    margin-bottom: 0; 
+    font-size: 14px; 
+	line-height: 20px;  
+    color: #333;
+    text-align: center; 
+    text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+    vertical-align: middle;
+    cursor: pointer; 
+	
+    background-color: #f5f5f5;
+    background-image: -moz-linear-gradient(top,#fff,#e6e6e6);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#fff),to(#e6e6e6));
+    background-image: -webkit-linear-gradient(top,#fff,#e6e6e6);
+    background-image: -o-linear-gradient(top,#fff,#e6e6e6);
+    background-image: linear-gradient(to bottom,#fff,#e6e6e6);
+    background-repeat: repeat-x;
+	
+    border: 1px solid #bbb;
+    border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+	
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',endColorstr='#ffe6e6e6',GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+    -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+}
+
+
+
+
+
+
+
+
+
+.myss-table-02 {
+
+    background: #fff;
+
+}
+
+
+
+
+
+/*=========================================================================================================================//
+//=========================================================================================================================//
+//=========================================================================================================================//
+//=========   FONCTION   ========   NAVBAR ONGLETS  =======================================================================*/	
+
+
+.mycss-navtab, .mycss-navtab li a {
+	
+	background-color: #2d4474;		/* pour le bavkground ul et bakcground a */
+	color: #DDDDDD; 		 		/* change couelur texte lien a */
+    border-radius:0px;
+    height:100%;
+	
+}
+.mycss-navtab li a:hover {
+	background-color: #2D4474;
+	color: white;
+}
+.mycss-navtab li a.active {
+    color: white;
+}
+
+
+
+.mycss-navtab-a-active {
+
+    background-color: #7485AA;
+    color:white;
+}
+
+
+
+
+
+/* Essais avec une nouvelle nav tab fait maison : */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+textarea[id="post_message"]{
+    resize: none;
+}
+
+
+
+.mycss-border-img8d-correct {
+    border: 15px solid green;
+
+
+}
+.mycss-border-img8d-incorrect {
+    border: 15px solid red;
+
+
+}
+
+
+
+
+
+
+
+.pagination{
+
+    margin : 20px 20px 0 10px;
+}
+
+
+.mycss-py-5{
+padding-top: 0px !important;
+
+}
+
+.mycss-btn-myprimary {
+
+    background-color:#2D4474;
+    border-color: #1E3A6A;
+}
+.mycss-btn-myprimary:hover {
+    background-color:#1E3A6A;
+}
+
+
+.mycss-compteur-btn {
+    width: 35px;
+    height:35px;
+    padding:6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=========================================================================================================================//
+//=========================================================================================================================//
+//=========================================================================================================================//
+//=========   FOOTER  =======================================================================*/	
+.footer1{
+    background-color: #343A40;
+    height: 20px;
+    
+}
+.footer {
+    /*padding-top:80px;*/
+    background-color: #2D4474;
+    
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width:100%;
+}
